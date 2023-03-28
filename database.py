@@ -96,7 +96,6 @@ try:
          cursor.execute(select_query, status1)
          rows = cursor.fetchmany()
          connection.commit()
-         #print(rows)
          return rows
 
     def drop_and_creat():
@@ -113,7 +112,7 @@ try:
 
 
 
-    drop_and_creat()
+    #drop_and_creat()
 
     ###########################################################################
     try:
